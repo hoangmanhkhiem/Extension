@@ -1,0 +1,151 @@
+html, body {
+    width: 350px;
+    max-height: 540px !important;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#container {
+    overflow-y: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 350px;
+    max-height: 484px !important;
+    padding: 10px 5px 5px 10px;
+}
+
+::-webkit-scrollbar {
+    height: 12px !important;
+    width: 6px !important;
+    background: #fff !important
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e3e3e3 !important;
+    -webkit-border-radius: 1ex !important
+}
+
+::-webkit-scrollbar-corner {
+    background: #fff !important
+}
+
+.image {
+    width: 85px;
+    height: 85px;
+    padding: 0;
+    opacity: 1;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    background: #FFF;
+    border-radius: 5px;
+    display: inline-block;
+    background-size: cover !important;
+
+}
+
+.image:hover {
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+header {
+    background: #f5f5f5;
+    height: 28px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-style: initial;
+    font-weight: 200;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+footer {
+    background: #f5f5f5;
+    height: 28px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-style: initial;
+    font-weight: 200;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+#linkrate {
+    position: inherit;
+    color: #595959;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+#linkrate:hover {
+    position: inherit;
+    color: #5e71f6;
+    font-size: 12pt;
+    cursor: pointer;
+}
+ 
+.disable {
+    background-image: url("/assets/images/disable.png");
+    background-size: contain;
+}
+
+.enable {
+    background-image: url("/assets/images/enable.png");
+    background-size: contain;
+}
+
+.greeny.active {
+    background-image: url("/assets/img/tabby_off.png") !important;
+}
+.pika.active {
+    background-image: url("/assets/img/pika_off.png") !important;
+}
+.nyan.active {
+    background-image: url("/assets/img/nyan_off.png") !important;
+}
+.maneki.active {
+    background-image: url("/assets/img/maneki_off.png") !important;
+}
+.punky.active {
+    background-image: url("/assets/img/punky_off.png") !important;
+}
+.grinch.active {
+    background-image: url("/assets/img/grinch_off.png") !important;
+}
+.rudolph.active {
+    background-image: url("/assets/img/rudolph_off.png") !important;
+}
+.santa.active {
+    background-image: url("/assets/img/santa_off.png") !important;
+}
+.spidey.active {
+    background-image: url("/assets/img/spidey_off.png") !important;
+}
+.batcat.active {
+    background-image: url("/assets/img/batcat_off.png") !important;
+}
+.hulk.active {
+    background-image: url("/assets/img/hulk_off.png") !important;
+}
