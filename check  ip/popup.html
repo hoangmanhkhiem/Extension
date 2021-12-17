@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+	body {
+		font-family: 'Segoe UI', Tahoma, sans-serif;
+		font-size: 14px;
+		color: #303942;
+		width: 315px;
+		font-weight: 400;
+	}
+	.hidden {
+		display: none;
+	}
+	td.smaller {
+		font-size: 13px;
+	}
+	button.refresh {
+		background-color: #7fbf4d;
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+		background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+		background-image: linear-gradient(top, #7fbf4d, #63a62f);
+		border: 1px solid #63a62f;
+		display: inline-block;
+		border-bottom: 1px solid #5b992b;
+		border-radius: 3px;
+		box-shadow: inset 0 1px 0 0 #96ca6d;
+		color: #fff;
+		font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+		line-height: 1;
+		padding: 7px 0 8px 0;
+		text-align: center;
+		text-shadow: 0 -1px 0 #4c9021;
+		min-width: 150px;
+	}
+	button.refresh:hover {
+		background-color: #76b347;
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+		background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+		background-image: linear-gradient(top, #76b347, #5e9e2e);
+		box-shadow: inset 0 1px 0 0 #8dbf67;
+		cursor: pointer;
+	}
+	button.refresh:active {
+		border: 1px solid #5b992b;
+		border-bottom: 1px solid #538c27;
+		box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+	}
+</style>
+
+</head>
+<body>
+	<span id="initial_help"></span>
+
+	<table cellpadding="3" width="100%">
+		<tr>
+			<td id="your_current_ip" valign="top" nowrap></td><td align="right" id="current_ip"></td>
+		</tr>
+		<tr id="proxy_list">
+			<td id="via_ip" valign="top" nowrap></td><td align="right" id="forwarded" class="smaller"></td>
+		</tr>
+		<tr id="proxy_host">
+			<td id="via_host" valign="top" nowrap></td><td align="right" id="proxy" class="smaller"></td>
+		</tr>
+		<tr id="user_agent">
+			<td id="your_current_browser" valign="top" nowrap></td><td align="right" id="browser_version"></td>
+		</tr>
+	</table>
+	
+	<br />
+	
+	<button id="refresh_button" class="refresh">Refresh</button>
+	<button id="copy_to_clipboard" class="refresh">Copy public IP</button>
+
+	<script src="js/popup.js" type="text/javascript"></script>
+</body>
+</html>

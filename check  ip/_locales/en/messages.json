@@ -1,0 +1,44 @@
+{
+   "copied": {
+      "message": "Copied to clipboard!"
+   },
+   "copy_to_clipboard": {
+      "message": "Copy public IP"
+   },
+   "current_ip_is": {
+      "message": "Public IP:"
+   },
+   "extDesc": {
+      "message": "Quickly check your IP address and see some other information without opening an additional page"
+   },
+   "extName": {
+      "message": "Check IP"
+   },
+   "ext_default_title": {
+      "message": "IP address"
+   },
+   "initial_help": {
+      "message": "Information is now being collected... \u003Cbr />\u003Cbr />Click the 'Refresh' button to see the information."
+   },
+   "popup_title": {
+      "message": "Your IP Address"
+   },
+   "refresh": {
+      "message": "Refresh"
+   },
+   "refresh_loading": {
+      "message": "Loading..."
+   },
+   "via_host": {
+      "message": "Proxy Host"
+   },
+   "via_ip": {
+      "message": "Real IP"
+   },
+   "your_current_browser": {
+      "message": "User Agent"
+   },
+   "your_current_ip": {
+      "message": "Public IP Address"
+   }
+}

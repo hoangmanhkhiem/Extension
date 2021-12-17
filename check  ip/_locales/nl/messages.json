@@ -1,0 +1,44 @@
+{
+   "copied": {
+      "message": "Gekopieëerd!"
+   },
+   "copy_to_clipboard": {
+      "message": "IP Kopiëren"
+   },
+   "current_ip_is": {
+      "message": "Publiek IP:"
+   },
+   "extDesc": {
+      "message": "Snel je IP-adres en wat andere informatie bekijken zonder een extra pagina te openen"
+   },
+   "extName": {
+      "message": "IP-adres bekijken"
+   },
+   "ext_default_title": {
+      "message": "IP-adres"
+   },
+   "initial_help": {
+      "message": "Informatie wordt nu opgehaald...\u003Cbr />\u003Cbr />Klik op de knop 'Vernieuwen' om de informatie te zien."
+   },
+   "popup_title": {
+      "message": "Jouw IP-adres"
+   },
+   "refresh": {
+      "message": "Vernieuwen"
+   },
+   "refresh_loading": {
+      "message": "Bezig met laden..."
+   },
+   "via_host": {
+      "message": "Host van proxy:"
+   },
+   "via_ip": {
+      "message": "Echte IP-adres:"
+   },
+   "your_current_browser": {
+      "message": "User Agent"
+   },
+   "your_current_ip": {
+      "message": "Publiek IP-adres:"
+   }
+}

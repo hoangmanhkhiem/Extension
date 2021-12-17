@@ -1,0 +1,44 @@
+{
+   "copied": {
+      "message": "Copiado!"
+   },
+   "copy_to_clipboard": {
+      "message": "Copia IP"
+   },
+   "current_ip_is": {
+      "message": "IP pública:"
+   },
+   "extDesc": {
+      "message": "Quick su dirección IP y ver qué otro tipo de información sin una página adicional para abrir"
+   },
+   "extName": {
+      "message": "Direcciones IP"
+   },
+   "ext_default_title": {
+      "message": "Dirección IP"
+   },
+   "initial_help": {
+      "message": "La información se recolecta ahora...\u003Cbr />\u003Cbr />Haga clic en el botón 'Actualizar' para ver la información."
+   },
+   "popup_title": {
+      "message": "Tu dirección IP"
+   },
+   "refresh": {
+      "message": "Actualizar"
+   },
+   "refresh_loading": {
+      "message": "Cargando..."
+   },
+   "via_host": {
+      "message": "Host proxy"
+   },
+   "via_ip": {
+      "message": "Dirección IP realmente"
+   },
+   "your_current_browser": {
+      "message": "La versión del navegador"
+   },
+   "your_current_ip": {
+      "message": "Dirección IP pública"
+   }
+}

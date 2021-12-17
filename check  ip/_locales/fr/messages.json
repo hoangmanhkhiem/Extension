@@ -1,0 +1,44 @@
+{
+   "copied": {
+      "message": "Copié!"
+   },
+   "copy_to_clipboard": {
+      "message": "Copie IP"
+   },
+   "current_ip_is": {
+      "message": "IP publique:"
+   },
+   "extDesc": {
+      "message": "Vite vérifier votre adresse IP et de voir d'autres informations sans avoir à ouvrir une page supplémentaire"
+   },
+   "extName": {
+      "message": "Voir l'adresse IP"
+   },
+   "ext_default_title": {
+      "message": "adresse IP"
+   },
+   "initial_help": {
+      "message": "L'information est recueillie maintenant...\u003Cbr />\u003Cbr />Cliquez sur le bouton 'Actualiser' pour afficher les informations."
+   },
+   "popup_title": {
+      "message": "Votre adresse IP"
+   },
+   "refresh": {
+      "message": "Actualiser"
+   },
+   "refresh_loading": {
+      "message": "Chargement en cours..."
+   },
+   "via_host": {
+      "message": "Proxy hôte"
+   },
+   "via_ip": {
+      "message": "L'adress IP vraiment"
+   },
+   "your_current_browser": {
+      "message": "La version du navigateur"
+   },
+   "your_current_ip": {
+      "message": "L'adresse IP publique"
+   }
+}

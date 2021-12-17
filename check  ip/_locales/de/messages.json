@@ -1,0 +1,44 @@
+{
+   "copied": {
+      "message": "Kopiert!"
+   },
+   "copy_to_clipboard": {
+      "message": "IP kopieren"
+   },
+   "current_ip_is": {
+      "message": "Öffentliche IP:"
+   },
+   "extDesc": {
+      "message": "Schnell Ihre IP-Adresse und einige anderen informationen anzeigen ohne eine zusätzliche seite zu öffnen"
+   },
+   "extName": {
+      "message": "IP-Adresse anzeigen"
+   },
+   "ext_default_title": {
+      "message": "IP-Adresse"
+   },
+   "initial_help": {
+      "message": "Die informationen werden jetzt gesammelt...\u003Cbr />\u003Cbr />Klicken sie auf 'Aktualisieren' um die Informationen zu sehen."
+   },
+   "popup_title": {
+      "message": "Ihre IP-Adresse"
+   },
+   "refresh": {
+      "message": "Aktualisieren"
+   },
+   "refresh_loading": {
+      "message": "Laden..."
+   },
+   "via_host": {
+      "message": "Proxy Host"
+   },
+   "via_ip": {
+      "message": "Wirkliche IP"
+   },
+   "your_current_browser": {
+      "message": "Browser-Version"
+   },
+   "your_current_ip": {
+      "message": "Ihre öffentliche IP-Adresse"
+   }
+}
