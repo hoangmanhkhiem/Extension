@@ -1,0 +1,53 @@
+<html>
+<head>
+  <meta charset=UTF-8>
+  <link href="./popup.css" rel="stylesheet">
+  <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+  <div class="media header">
+    <img alt="Typing Detector" class="align-self-center mr-3" src="typing.png" style="width: 48px;
+    height:
+    48px;">
+    <div class="media-body">
+      <h4 class="mt-0" id="ext-name">EXT_NAME</h4>
+      <p class="mb-0" id="ext-description">EXT_DESCRIPTION</p>
+    </div>
+    <div class="d-flex justify-content-end">
+      <span id="ext-origination">DEVELOPED_BY</span>
+      <a id="ext-author" target="_blank">&nbspK19</a>
+    </div>
+  </div>
+
+  <div class="btn-group btn-group-justified" role="group">
+    <button class="btn btn-primary btn-sm btn-show-option" data-option="all" type="button">ALL</button>
+    <button class="btn btn-primary btn-sm btn-show-option" data-option="you" type="button">YOU</button>
+    <button class="btn btn-primary btn-sm btn-show-option" data-option="group" type="button">GROUP</button>
+  </div>
+
+  <button class="btn btn-sm float-right btn-other-option" id="clear-history" type="button">CLEAR_HISTORY</button>
+  <button class="btn btn-sm float-right btn-other-option" id="reload-ext" type="button">RELOAD</button>
+  <button class="btn btn-sm float-right btn-other-option" id="change-language" type="button">LANGUAGE</button>
+
+  <table class="history">
+    <thead>
+    <tr>
+      <th class="history-col-title" scope="col">TIME</th>
+      <th class="history-col-title" scope="col">NAME</th>
+      <th class="history-col-title" scope="col">RECEIVER</th>
+      <th class="history-col-title" scope="col">TYPING_STATUS</th>
+    </tr>
+    </thead>
+    <tbody id="history"></tbody>
+  </table>
+
+  <div class="hidden" id="no-result-text">NO_TYPING_INDICATOR_DETECTED</div>
+</div>
+<script src="./popup.bundle.js"></script>
+</body>
+</html>
